@@ -1,0 +1,9 @@
+<Buttton    onClicl={somefunction} className=""  >
+
+somefunction(e) =>{
+    do something with e.target.something
+}
+
+somefunction(props) =>{
+    do something with props.{some attribute}
+} //props are immutable
